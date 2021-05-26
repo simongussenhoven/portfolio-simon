@@ -1,7 +1,7 @@
 function Header() {
     return (
         <header className="App-header">
-            <h1>This is working!</h1>
+            <h1>Welcome to my page</h1>
         </header>
     );
 }

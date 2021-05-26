@@ -1,21 +1,13 @@
+import { BrowserRouter as Router, Link } from "react-router-dom";
+
 function Nav() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="navbar-nav">
-                <a className="nav-item nav-link active" href="#">
-                    Home
-                </a>
-                <a className="nav-item nav-link" href="#">
-                    About me
-                </a>
-                <a className="nav-item nav-link" href="#">
-                    Blog
-                </a>
-                <a className="nav-item nav-link disabled" href="#">
-                    Courses
-                </a>
-            </div>
-        </nav>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <div className="navbar-nav">
+                    <Link className="nav-item nav-link active" to={"/"}>Home</Link>
+                    <Link className="nav-item nav-link active" to={"/blog"}>Blog</Link>
+                </div>
+            </nav>
     );
 }
 export default Nav;
