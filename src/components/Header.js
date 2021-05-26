@@ -1,7 +1,8 @@
 function Header() {
     return (
         <header className="App-header">
-            <h1>Welcome to my page</h1>
+            <h1 className="display-1">Hi! I'm Simon</h1>
+            <h2 className="display-2">Aspiring front end developer</h2>
         </header>
     );
 }
