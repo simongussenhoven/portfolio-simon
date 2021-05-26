@@ -1,9 +1,11 @@
+import Nav from './Nav'
+import Header from './Header'
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>This is working!</h1>
-      </header>
+      <Nav/>
+      <Header/>
     </div>
   );
 }
