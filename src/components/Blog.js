@@ -6,7 +6,7 @@ function Blog(props) {
             <div className="banner p-5 bg-dark">
                 <h1 className="text-white display-1">Blog</h1>
             </div>
-            <div className="container posts my-5 d-flex">
+            <div className="container posts my-5 d-flex flex-column">
                 {props.data.map((post) => {
                     return <Blogpost postdata={post} />;
                 })}
