@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Nav() {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="navbar-nav d-flex">
+            <div className="navbar-nav d-flex flex-row">
                 <Link className="nav-item nav-link active" to={"/"}>
                     Home
                 </Link>
@@ -17,8 +17,10 @@ function Nav() {
                     About
                 </Link>
                 <a
+                    target="_blank"
+                    rel="noreferrer"
                     className="nav-item nav-link active align-self-end"
-                    href="https://www.linkedin.com"
+                    href="https://www.linkedin.com/in/simon-gussenhoven/"
                 >
                     <svg
                         className="color-blue1 mb-1 mr-2 bi bi-linkedin"
@@ -33,8 +35,10 @@ function Nav() {
                     LinkedIn
                 </a>
                 <a
+                    target="_blank"
+                    rel="noreferrer"
                     className="nav-item nav-link active align-self-end"
-                    href="https://www.github.com"
+                    href="https://github.com/simongussenhoven/"
                 >
                     <svg
                         className="color-blue1 mb-1 mr-2 bi bi-github"
