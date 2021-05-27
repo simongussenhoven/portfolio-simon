@@ -1,9 +1,10 @@
 import Nav from "./Nav";
 import Main from "./Main";
 import Blog from "./Blog";
+import Courses from "./Courses"
+import About from "./About"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React from "react";
-
 import blog from "../data/blog.js";
 
 class App extends React.Component {
@@ -26,6 +27,8 @@ class App extends React.Component {
                                 <Blog data={blog} />
                             )}
                         />
+                        <Route path="/courses" component={Courses} />
+                        <Route path="/about" component={About} />
                     </Switch>
                 </Router>
             </div>
