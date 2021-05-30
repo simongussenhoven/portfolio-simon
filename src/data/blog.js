@@ -1,5 +1,13 @@
 const blog = [
     {
+        id: 4,
+        create_date: "29-05-2021",
+        title: "Testing category filter",
+        image: "./images/placeholder.png",
+        paragraphs: ["Testing to see if the categoryfilter works :)"],
+        categories: ["Personal"],
+    },
+    {
         id: 3,
         create_date: "29-05-2021",
         title: "Blogposts needs categories",

@@ -1,8 +1,8 @@
-function About () {
+function About() {
     return (
         <div>
             <div className="banner p-5 bg-dark">
-                <h1 className="text-white display-1">About me</h1>
+                <h1 className="text-white display-1 text-center">About me</h1>
             </div>
             <section class="container text-left p-4 mt-5">
                 <h2>General</h2>
@@ -16,7 +16,7 @@ function About () {
                     <li>Angular.JS</li>
                     <li>En meer...</li>
                 </ul>
-                <hr/>
+                <hr />
             </section>
             <section class="container text-left p-4">
                 <h2>Off-time</h2>
@@ -32,6 +32,6 @@ function About () {
                 </ul>
             </section>
         </div>
-    )
+    );
 }
-export default About
+export default About;
