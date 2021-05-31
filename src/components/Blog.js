@@ -39,7 +39,13 @@ function Blog(props) {
                                         </div>
                                     );
                                 })}
-                                <button className="btn border btn-sm m-1 cat-button">Clear filter</button>{" "}
+                                <button
+                                    onClick={() => {
+                                        props.filterPosts("All");
+                                    }}
+                                    className="btn border btn-sm m-1 cat-button">
+                                    Clear filter
+                                </button>{" "}
                             </div>
                         </div>
                     </div>

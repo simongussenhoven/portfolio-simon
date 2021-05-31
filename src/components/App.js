@@ -17,11 +17,18 @@ class App extends React.Component {
         };
     }
     filterPosts = (cat) => {
-        this.setState({
-            blog: blog.filter((post) => {
-                return post.categories.includes(cat);
-            }),
-        });
+        if (cat === "All"){
+            this.setState({
+                blog
+            });
+        }
+        else {
+            this.setState({
+                blog: blog.filter((post) => {
+                    return post.categories.includes(cat);
+                }),
+            });
+        }
     };
 
     render() {
