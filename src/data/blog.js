@@ -4,7 +4,7 @@ const blog = [
         create_date: "29-05-2021",
         title: "Testing category filter",
         image: "./images/placeholder.png",
-        paragraphs: ["Testing to see if the categoryfilter works :)"],
+        paragraphs: [`<a href="www.nu.nl">This is a link</a>`, "something else"],
         categories: ["Personal"],
     },
     {

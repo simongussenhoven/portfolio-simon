@@ -1,4 +1,4 @@
-import Nav from "./Nav";
+import Menu from "./Menu";
 import Main from "./Main";
 import Blog from "./Blog";
 import Courses from "./Courses";
@@ -6,6 +6,7 @@ import About from "./About";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React from "react";
 import blog from "../data/blog.js";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 class App extends React.Component {
     constructor() {
@@ -21,11 +22,12 @@ class App extends React.Component {
             }),
         });
     };
+
     render() {
         return (
             <div className="App">
                 <Router>
-                    <Nav />
+                    <Menu />
                     <Switch>
                         <Route exact path="/" component={Main} />
                         <Route path="/blog" render={() => <Blog posts={blog} data={[...this.state.blog]} filterPosts={this.filterPosts} />} />

@@ -14,7 +14,7 @@ function About() {
                     <li>React.JS</li>
                     <li>Vue.JS</li>
                     <li>Angular.JS</li>
-                    <li>En meer...</li>
+                    <li>And more...</li>
                 </ul>
                 <hr />
             </section>
@@ -27,8 +27,6 @@ function About() {
                     <li>Repairing the damn boat</li>
                     <li>Cycling</li>
                     <li>Poultry farming</li>
-                    <li>Angular.JS</li>
-                    <li>En meer...</li>
                 </ul>
             </section>
         </div>
