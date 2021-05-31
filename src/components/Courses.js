@@ -7,7 +7,9 @@ function Courses() {
             </div>
             <CardGroup className="container mt-5 text-center">
                 <Card className="m-2 shadow">
-                    <Card.Img variant="top" src="../images/winc.png" className="p-5" />
+                    <div className="p-3">
+                        <Card.Img variant="top" src="../images/winc.png" className="p-5" />
+                    </div>
                     <Card.Body className="justify-content-center d-flex flex-column">
                         <Card.Title>Front End Development</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted text-center">Winc Academy</Card.Subtitle>
@@ -17,7 +19,9 @@ function Courses() {
                     </Card.Body>
                 </Card>
                 <Card className="m-2 shadow">
-                    <Card.Img variant="top" src="../images/vue.png" className="p-5" />
+                    <div className="p-3">
+                        <Card.Img variant="top" src="../images/vue.png" className="p-5" />
+                    </div>
                     <Card.Body className="justify-content-center d-flex flex-column">
                         <Card.Title className="text-center">Vue.js Course</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted text-center">Codecademy</Card.Subtitle>
@@ -27,7 +31,9 @@ function Courses() {
                     </Card.Body>
                 </Card>
                 <Card className="m-2 shadow">
-                    <Card.Img variant="top" src="../images/bootstrap.png" className="p-5" />
+                    <div className="p-3">
+                        <Card.Img variant="top" src="../images/bootstrap.png" className="p-5" />
+                    </div>
                     <Card.Body className="justify-content-center d-flex flex-column">
                         <Card.Title className="text-center">Bootstrap Course</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted text-center">Codecademy</Card.Subtitle>
@@ -37,7 +43,9 @@ function Courses() {
                     </Card.Body>
                 </Card>
                 <Card className="m-2 shadow">
-                    <Card.Img variant="top" src="../images/jquery.png" className="p-5" />
+                    <div className="p-3">
+                        <Card.Img variant="top" src="../images/jquery.png" className="p-5" />
+                    </div>
                     <Card.Body className="justify-content-center d-flex flex-column">
                         <Card.Title className="text-center">jQuery Course</Card.Title>
                         <Card.Subtitle className="mb-2 text-muted text-center">Codecademy</Card.Subtitle>

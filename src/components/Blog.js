@@ -17,26 +17,29 @@ function Blog(props) {
 
             <div className="container">
                 <div className="row">
-                    <div className="posts my-5 d-flex flex-column col-12 col-md-9">
+                    <div className="posts my-5 d-flex flex-column col-12 col-md-8">
                         {props.data.map((post) => {
                             return <Blogpost postdata={post} filterPosts={props.filterPosts} />;
                         })}
                     </div>
-                    <div className="col-12 col-md-3 my-5 d-flex flex-column">
-                        <div className="card p-3">
+                    <div className="col-12 col-md-4 my-5 d-flex flex-column">
+                        <div className="card p-3 shadow">
                             <h3>Categories</h3>
-                            <div className="card-text">
+                            <div className="card-text d-flex flex-row flex-wrap">
                                 {categories.map((cat) => {
                                     return (
-                                        <button
-                                            onClick={() => {
-                                                props.filterPosts(cat);
-                                            }}
-                                            className="btn border btn-sm m-1 cat-button">
-                                            {cat}
-                                        </button>
+                                        <div>
+                                            <button
+                                                onClick={() => {
+                                                    props.filterPosts(cat);
+                                                }}
+                                                className="btn border btn-sm m-1 cat-button">
+                                                {cat}
+                                            </button>
+                                        </div>
                                     );
                                 })}
+                                <button className="btn border btn-sm m-1 cat-button">Clear filter</button>{" "}
                             </div>
                         </div>
                     </div>
