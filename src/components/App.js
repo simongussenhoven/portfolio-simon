@@ -31,10 +31,10 @@ class App extends React.Component {
                     <Menu />
                     <Switch>
                         <Route exact path="/" component={Main} />
-                        <Route path="/blog" render={() => <Blog posts={blog} data={[...this.state.blog]} filterPosts={this.filterPosts} />} />
-                        <Route path="/courses" component={Courses} />
-                        <Route path="/about" component={About} />
-                        <Route path="/contact" component={Contact} />
+                        <Route path="/blog/" render={() => <Blog posts={blog} data={[...this.state.blog]} filterPosts={this.filterPosts} />} />
+                        <Route path="/courses/" component={Courses} />
+                        <Route path="/about/" component={About} />
+                        <Route path="/contact/" component={Contact} />
                     </Switch>
                 </Router>
             </div>
