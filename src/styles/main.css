@@ -1,24 +1,65 @@
 .cat-button {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .cat-button:hover {
-    background-color: #00d9ff;
-    color: white;
+  background-color: #00d9ff;
+  color: white;
 }
 
 .masthead {
-    height: 100vh;
-    min-height: 500px;
-    background-image: -webkit-gradient(linear, left top, right bottom, from(#051937), color-stop(#005181), color-stop(#00909f), color-stop(#00ce7b), to(#b0ff00));
-    background-image: linear-gradient(to right bottom, #051937, #005181, #00909f, #00ce7b, #b0ff00);
+  height: 100vh;
+  min-height: 500px;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#051937), color-stop(#005181), color-stop(#00909f), color-stop(#00ce7b), to(#b0ff00));
+  background-image: linear-gradient(to right bottom, #051937, #005181, #00909f, #00ce7b, #b0ff00);
 }
 
 .masthead__heading {
-    position: relative;
-    top: -30px;
+  position: relative;
+  top: -30px;
 }
-.img-attr {
-    font-size: 10px;
+
+.font-10 {
+  font-size: 10px;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-16 {
+  font-size: 16px;
+}
+
+.font-18 {
+  font-size: 18px;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.font-22 {
+  font-size: 22px;
+}
+
+.font-24 {
+  font-size: 24px;
+}
+
+.font-26 {
+  font-size: 26px;
+}
+
+.font-28 {
+  font-size: 28px;
+}
+
+.font-30 {
+  font-size: 30px;
 }
 /*# sourceMappingURL=main.css.map */
