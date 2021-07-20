@@ -4,19 +4,39 @@ function About() {
             <div className="banner p-5 bg-dark">
                 <h1 className="text-white display-1 text-center">About me</h1>
             </div>
-            <section class="container text-left p-4 mt-5">
-                <h2>General</h2>
-                <p>Hi, I'm Simon, an aspiring front-end developer. Last year I took the front-end development course at Winc Academy (Amsterdam) and I'm looking for project to practise my skills:</p>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>React.JS</li>
-                    <li>Vue.JS</li>
-                    <li>Angular.JS</li>
-                    <li>And more...</li>
-                </ul>
-                <hr />
+            <section class="container text-left p-4 mt-5 border-bottom text-center">
+                <div class="row text-center">
+                    <h2>General</h2>
+                    <p>Hi, I'm Simon, an aspiring front-end developer. Last year I took the front-end development course at Winc Academy (Amsterdam) and I'm looking for project to practise my skills!</p>
+                </div>
+                <div class="container my-5">
+                    <div class="row d-flex flex-row justify-content-center">
+                        <div class="col col-md-2 d-block">
+                            <img class="img-fluid mb-3" src="../images/code-icons/html.png"/>
+                            <span class="mt-auto">HTML</span>
+                        </div> 
+                        <div class="col col-md-2 d-block">
+                            <img class="img-fluid mb-3" src="../images/code-icons/css.png"/>
+                            <span>CSS3</span>
+                        </div> 
+                        <div class="col col-md-2 d-block">
+                            <img class="img-fluid mb-3" src="../images/bootstrap.png"/>
+                            <span class="mt-auto">Bootstrap</span>
+                        </div>
+                        <div class="col col-md-2 d-block">
+                            <img class="img-fluid mb-3" src="../images/react.png"/>
+                            <span class="mt-auto">Bootstrap</span>
+                        </div> 
+                        <div class="col col-md-2 d-block">
+                            <img class="img-fluid mb-3" src="../images/code-icons/js.png"/>
+                            <span>JavaScript</span>
+                        </div> 
+                        <div class="col col-md-2 d-block">
+                            <img class="img-fluid mb-3" src="../images/code-icons/js.png"/>
+                            <span>JavaScript</span>
+                        </div> 
+                    </div>
+                </div>
             </section>
             <section class="container text-left p-4">
                 <h2>Off-time</h2>

@@ -16,7 +16,7 @@ function Courses() {
                         <Button>View certificate</Button>
                     </Card.Body>
                 </Card>
-                <Card className="m-2 shadow">
+                <Card className="m-2 shadow border">
                         <Card.Img variant="top" src="../images/vue.png" className="p-5" />
                     <Card.Body className="justify-content-center d-flex flex-column">
                         <Card.Title className="text-center">Vue.js Course</Card.Title>
@@ -26,7 +26,7 @@ function Courses() {
                         <Button>View certificate</Button>
                     </Card.Body>
                 </Card>
-                <Card className="m-2 shadow">
+                <Card className="m-2 shadow border">
                         <Card.Img variant="top" src="../images/bootstrap.png" className="p-5" />
                     <Card.Body className="justify-content-center d-flex flex-column">
                         <Card.Title className="text-center">Bootstrap Course</Card.Title>
@@ -36,7 +36,7 @@ function Courses() {
                         <Button>View certificate</Button>
                     </Card.Body>
                 </Card>
-                <Card className="m-2 shadow">
+                <Card className="m-2 shadow border">
                         <Card.Img variant="top" src="../images/jquery.png" className="p-5" />
                     <Card.Body className="justify-content-center d-flex flex-column">
                         <Card.Title className="text-center">jQuery Course</Card.Title>

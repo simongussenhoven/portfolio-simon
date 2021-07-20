@@ -27,3 +27,14 @@
 .font-26 {font-size: 26px}
 .font-28 {font-size: 28px}
 .font-30 {font-size: 30px}
+
+.top-fit {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+
+    &:hover{
+        opacity: 1;
+
+    }
+}

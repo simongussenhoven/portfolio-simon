@@ -15,14 +15,14 @@ function Contact() {
                     </Form.Group>
                     <Form.Group controlId="exampleForm.ControlInput2">
                         <Form.Label>Subject</Form.Label>
-                        <Form.Control type="email" placeholder="Please type a subject" />
+                        <Form.Control type="text" placeholder="Please type a subject" />
                     </Form.Group>
                     <Form.Group controlId="exampleForm.ControlTextarea1">
                         <Form.Label>Message body</Form.Label>
                         <Form.Control as="textarea" placeholder="Type your message here" rows={8} />
                     </Form.Group>
                     <Button variant="primary" type="submit">
-                        Submit
+                        Send
                     </Button>
                 </Form>
             </div>
