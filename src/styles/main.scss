@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.primary {
+    color: #140087 !important;
+}
+.btn-blue1 {
+    background-color: #091833;
+    border-color: #091833;
+}
+.btn-blue2 {
+    background-color: #133e7c;
+    border-color: #133e7c
+}
+.bg-blue1 {
+    background-color: #091833;
+}
+.color-pink {
+    color: #ea00d9 !important
+}
+.color-white {
+    color: #fff;
+}
+.monoton {
+    font-family: 'Monoton', cursive !important;
+}
 .cat-button {
     font-size: 10px;
     &:hover {
@@ -27,6 +52,9 @@
 .font-26 {font-size: 26px}
 .font-28 {font-size: 28px}
 .font-30 {font-size: 30px}
+.font-40 {font-size: 40px}
+.font-50 {font-size: 50px}
+.font-60 {font-size: 60px}
 
 .top-fit {
     width: 100%;
@@ -37,4 +65,8 @@
         opacity: 1;
 
     }
+}
+
+.m-05 {
+    margin: ($spacer * .1) !important
 }

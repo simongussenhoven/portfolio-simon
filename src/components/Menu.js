@@ -49,7 +49,7 @@ function Menu() {
                             Projects
                         </Nav.Link>
                         <NavDropdown title="Experiments" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#">Action</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/products/">Product page</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                 </Navbar.Collapse>

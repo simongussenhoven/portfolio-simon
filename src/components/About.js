@@ -10,30 +10,26 @@ function About() {
                     <p>Hi, I'm Simon, an aspiring front-end developer. Last year I took the front-end development course at Winc Academy (Amsterdam) and I'm looking for project to practise my skills!</p>
                 </div>
                 <div class="container my-5">
-                    <div class="row d-flex flex-row justify-content-center">
+                    <div class="row d-flex flex-row justify-content-space-between">
                         <div class="col col-md-2 d-block">
                             <img class="img-fluid mb-3" src="../images/code-icons/html.png"/>
-                            <span class="mt-auto">HTML</span>
+                            <span class="mb-auto mt-auto">HTML</span>
                         </div> 
                         <div class="col col-md-2 d-block">
-                            <img class="img-fluid mb-3" src="../images/code-icons/css.png"/>
-                            <span>CSS3</span>
+                            <img class="img-fluid mb-3"src="../images/code-icons/css.png"/>
+                            <span class="mb-auto">CSS3</span>
                         </div> 
                         <div class="col col-md-2 d-block">
-                            <img class="img-fluid mb-3" src="../images/bootstrap.png"/>
-                            <span class="mt-auto">Bootstrap</span>
+                            <img class="img-fluid mb-3" alt="bootstrap"src="../images/bootstrap.png"/>
+                            <span class="mb-auto">Bootstrap</span>
                         </div>
                         <div class="col col-md-2 d-block">
-                            <img class="img-fluid mb-3" src="../images/react.png"/>
+                            <img class="img-fluid mb-3" alt="bootstrap" src="../images/react.png"/>
                             <span class="mt-auto">Bootstrap</span>
                         </div> 
                         <div class="col col-md-2 d-block">
-                            <img class="img-fluid mb-3" src="../images/code-icons/js.png"/>
-                            <span>JavaScript</span>
-                        </div> 
-                        <div class="col col-md-2 d-block">
-                            <img class="img-fluid mb-3" src="../images/code-icons/js.png"/>
-                            <span>JavaScript</span>
+                            <img class="img-fluid mb-3" alt="javascript" src="../images/code-icons/js.png"/>
+                            <span class="mb-auto">JavaScript</span>
                         </div> 
                     </div>
                 </div>

@@ -5,16 +5,21 @@ import Courses from "./Courses";
 import About from "./About";
 import Contact from "./Contact";
 import Projects from "./Projects";
+import Products from "./experiments/Products";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React from "react";
 import blog from "../data/blog.js";
 import "bootstrap/dist/css/bootstrap.min.css";
+import products from "../data/products.js"
 
 class App extends React.Component {
     constructor() {
         super();
         this.state = {
             blog,
+            products,
+            basket: null,
+            view: "normal",
         };
     }
     filterPosts = (cat) => {
@@ -43,7 +48,8 @@ class App extends React.Component {
                         <Route path="/courses/" component={Courses} />
                         <Route path="/about/" component={About} />
                         <Route path="/contact/" component={Contact} />
-                        <Route path="/projects" component={Projects}/>
+                        <Route path="/projects/" component={Projects}/>
+                        <Route path="/products/" render={() => <Products data={this.state} />} />
                     </Switch>
                 </Router>
             </div>

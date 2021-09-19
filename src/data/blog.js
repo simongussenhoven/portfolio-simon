@@ -1,6 +1,21 @@
 const blog = [
     {
         id: 5,
+        create_date: "22-07-2021",
+        title: "Projects page created",
+        image: "../images/projects/sailing/marie.jpg",
+        image_attr: "",
+
+        paragraphs: [
+            "So, I've made some more time to work on this page.",
+            "This time I created a page with personal projects, just to show a bit of content.",
+            "Check it out by clicking the projects-button in the main menu.",
+            "P.S. There's lots of content to be added, so don't mind the occasional dead link",
+        ],
+        categories: ["Personal", "Webdevelopment"],
+    },
+    {
+        id: 5,
         create_date: "31-5-2021",
         title: "React Bootstrap",
         image: "../images/categorization.jpg",
