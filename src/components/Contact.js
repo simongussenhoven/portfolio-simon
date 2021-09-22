@@ -1,7 +1,10 @@
+import React from 'react'
 import { Form, Button } from "react-bootstrap";
+import FadeIn from 'react-fade-in'
 function Contact() {
     return (
-        <section>
+        <FadeIn>
+            <section>
             <div className="banner p-5 bg-dark">
                 <h1 className="text-white display-1 text-center">Contact</h1>
             </div>
@@ -27,6 +30,7 @@ function Contact() {
                 </Form>
             </div>
         </section>
+        </FadeIn>
     );
 }
 export default Contact;

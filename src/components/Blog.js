@@ -1,4 +1,9 @@
+import React from 'react'
 import Blogpost from "./Blogpost";
+import FadeIn from 'react-fade-in'
+import { v4 as uuidv4 } from 'uuid';
+
+
 function Blog(props) {
     const categories = [];
     props.posts.forEach((post) => {
@@ -8,9 +13,9 @@ function Blog(props) {
             }
         });
     });
-    console.log(props);
     return (
-        <div>
+        <FadeIn>
+            <section className="bg-dark">
             <div className="banner p-5 bg-dark">
                 <h1 className="text-white display-1 text-center">Blog</h1>
             </div>
@@ -19,7 +24,7 @@ function Blog(props) {
                 <div className="row">
                     <div className="posts my-5 d-flex flex-column col-12 col-md-8">
                         {props.data.map((post) => {
-                            return <Blogpost postdata={post} filterPosts={props.filterPosts} />;
+                            return <Blogpost key={uuidv4()} postdata={post} filterPosts={props.filterPosts} />;
                         })}
                     </div>
                     <div className="col-12 col-md-4 my-5 d-flex flex-column">
@@ -28,7 +33,7 @@ function Blog(props) {
                             <div className="card-text d-flex flex-row flex-wrap">
                                 {categories.map((cat) => {
                                     return (
-                                        <div>
+                                        <div key={uuidv4()}>
                                             <button
                                                 onClick={() => {
                                                     props.filterPosts(cat);
@@ -51,7 +56,8 @@ function Blog(props) {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        </FadeIn>
     );
 }
 export default Blog;

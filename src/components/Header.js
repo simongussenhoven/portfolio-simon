@@ -1,4 +1,7 @@
+import React from 'react'
 import { Button } from "react-bootstrap";
+import { HashLink as Link } from 'react-router-hash-link';
+
 function Header() {
     return (
         <header className="bg-dark vh-100 d-flex align-items-center justify-content-center masthead">
@@ -9,10 +12,10 @@ function Header() {
                 </div>
                 <div className="row d-flex justify-content-center my-5">
                     <div className="col-4 col-md-2">
-                        <Button className="btn w-100">Contact</Button>
+                        <Link to="/contact/"><Button className="btn w-100">Contact</Button></Link>
                     </div>
                     <div className="col-4 col-md-2">
-                        <Button className="btn w-100 text-nowrap">About me</Button>
+                        <Link to="/#about"><Button className="btn w-100 text-nowrap">About me</Button></Link>
                     </div>  
                 </div>
             </div>

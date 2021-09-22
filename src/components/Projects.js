@@ -1,6 +1,9 @@
+import React from 'react'
 import { Card, CardGroup, Button } from "react-bootstrap";
+import FadeIn from 'react-fade-in'
 function Projects () {
     return (
+        <FadeIn>
         <div>
             <section>
              <div className="banner p-5 bg-dark">
@@ -8,7 +11,8 @@ function Projects () {
             </div>
             </section>
             <section className="my-3">
-            <CardGroup className="container mt-5 text-center">
+           
+           <CardGroup className="container mt-5 text-center">
                 <Card className="m-2 shadow">
                     <Card.Img variant="top" src="../images/projects/sailing/marie.jpg" className="p-0 top-fit" />
                     <Card.Body className="justify-content-center d-flex flex-column">
@@ -57,8 +61,10 @@ function Projects () {
                     </Card.Body>
                 </Card>
             </CardGroup>
+           
             </section>
         </div>
+        </FadeIn>
     )
 }
 export default Projects

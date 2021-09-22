@@ -1,51 +1,42 @@
+import React from 'react'
+import {Button} from 'react-bootstrap'
+import FadeIn from 'react-fade-in'
+import {Link} from 'react-router-dom'
+
 function About() {
     return (
-        <div>
+        <FadeIn>
+            <div id="about">
             <div className="banner p-5 bg-dark">
-                <h1 className="text-white display-1 text-center">About me</h1>
+                <h1 className="text-white display-1 text-center">About</h1>
             </div>
-            <section class="container text-left p-4 mt-5 border-bottom text-center">
-                <div class="row text-center">
-                    <h2>General</h2>
-                    <p>Hi, I'm Simon, an aspiring front-end developer. Last year I took the front-end development course at Winc Academy (Amsterdam) and I'm looking for project to practise my skills!</p>
-                </div>
-                <div class="container my-5">
-                    <div class="row d-flex flex-row justify-content-space-between">
-                        <div class="col col-md-2 d-block">
-                            <img class="img-fluid mb-3" src="../images/code-icons/html.png"/>
-                            <span class="mb-auto mt-auto">HTML</span>
-                        </div> 
-                        <div class="col col-md-2 d-block">
-                            <img class="img-fluid mb-3"src="../images/code-icons/css.png"/>
-                            <span class="mb-auto">CSS3</span>
-                        </div> 
-                        <div class="col col-md-2 d-block">
-                            <img class="img-fluid mb-3" alt="bootstrap"src="../images/bootstrap.png"/>
-                            <span class="mb-auto">Bootstrap</span>
+            <section className="container text-left p-4 mt-5 border-bottom d-flex flex-column container">
+                <div className="row my-5">
+                    <div className="row d-flex">
+                        <div className="col col-12 col-md-6">
+                            <h3 className="font-50 text-right pt-0">About me</h3>
                         </div>
-                        <div class="col col-md-2 d-block">
-                            <img class="img-fluid mb-3" alt="bootstrap" src="../images/react.png"/>
-                            <span class="mt-auto">Bootstrap</span>
-                        </div> 
-                        <div class="col col-md-2 d-block">
-                            <img class="img-fluid mb-3" alt="javascript" src="../images/code-icons/js.png"/>
-                            <span class="mb-auto">JavaScript</span>
-                        </div> 
+                        <div className="col col-12 col-md-6 text-left p-3">
+                        <p>Hi, I'm Simon, an aspiring front-end developer. Last year I took the front-end development course at Winc Academy (Amsterdam) and I'm looking for project to practise my skills! Please checkout my page with experiment to see wether I'm up to any good. I my spare time I love to code, game, sail and cycle. Do you have any question? Contact me!</p>
+                        <Link to="/contact/"><Button variant="success" className="d-inline-block mt-3" style={{"width": "100px"}}>Contact</Button></Link>
+                        </div>
+                    </div>
+                </div>
+                <div className="row my-5">
+                    <div className="row d-flex">
+                        <div className="col col-12 col-md-6 text-right p-3">
+                        <p>This page was created in <strong>React.js</strong> and <strong>Netlify Continous Development</strong>. You can check it out on Github here. Other tools used are React-bootstrap and Sass.</p>
+                        <p></p>
+                        <a href="https://github.com/simongussenhoven/portfolio-simon" noreferrer><Button variant="success" className="d-inline-block mt-3" style={{"width": "100px"}}>Github</Button></a>
+                        </div>
+                        <div className="col col-12 col-md-6">
+                            <h3 className="font-50 text-left pt-0">About this page</h3>
+                        </div>
                     </div>
                 </div>
             </section>
-            <section class="container text-left p-4">
-                <h2>Off-time</h2>
-                <p>In my spare time I enjoy many leisure activities:</p>
-                <ul>
-                    <li>Gaming</li>
-                    <li>Sailing</li>
-                    <li>Repairing the damn boat</li>
-                    <li>Cycling</li>
-                    <li>Poultry farming</li>
-                </ul>
-            </section>
         </div>
+        </FadeIn>
     );
 }
 export default About;

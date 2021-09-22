@@ -1,3 +1,4 @@
+import React from 'react'
 import { Card, CardGroup, Button } from "react-bootstrap";
 function Courses() {
     return (
@@ -5,7 +6,7 @@ function Courses() {
             <div className="banner p-5 bg-dark">
                 <h1 className="text-white display-1 text-center">Courses</h1>
             </div>
-            <CardGroup className="container mt-5 text-center">
+            <CardGroup className="container mt-5 text-center my-5">
                 <Card className="m-2 shadow">
                         <Card.Img variant="top" src="../images/winc.png" className="p-5" />
                     <Card.Body className="justify-content-center d-flex flex-column">
